@@ -925,6 +925,14 @@ define Device/xiaomi_mir4
 endef
 TARGET_DEVICES += xiaomi_mir4
 
+define Device/xiaomi_mir4a
+  IMAGE_SIZE := 16064k
+  DEVICE_VENDOR := Xiaomi
+  DEVICE_MODEL := xiaomi_mir4a
+  DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 wpad-basic
+endef
+TARGET_DEVICES += xiaomi_mir4a
+
 define Device/xiaomi_mi-router-ac2100
   BLOCKSIZE := 128k
   PAGESIZE := 2048
