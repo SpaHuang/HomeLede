@@ -929,7 +929,7 @@ define Device/xiaomi_mir4a
   IMAGE_SIZE := 16064k
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := xiaomi_mir4a
-  DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 wpad-basic
+  DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 wpad-openssl
 endef
 TARGET_DEVICES += xiaomi_mir4a
 
